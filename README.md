@@ -17,7 +17,7 @@ the client and the server, for our use we hardcoded a supported set of negotiati
 ## Sample Usage as NTLM Client
 
 ```go
-import "github.com/ThomsonReutersEikon/go-ntlm/ntlm"
+import "github.com/audibleblink/go-ntlm/ntlm"
 
 session, err = ntlm.CreateClientSession(ntlm.Version2, ntlm.ConnectionlessMode)
 session.SetUserInfo("someuser","somepassword","somedomain")

@@ -1,1 +1,1 @@
-module github.com/ThomsonReutersEikon/go-ntlm
+module github.com/audibleblink/go-ntlm
