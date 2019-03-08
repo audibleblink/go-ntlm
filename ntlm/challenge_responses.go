@@ -17,7 +17,7 @@ type NtlmV1Response struct {
 }
 
 func (n *NtlmV1Response) String() string {
-	return fmt.Sprintf("NtlmV1Response: %s", hex.EncodeToString(n.Response))
+	return fmt.Sprintf("%s", hex.EncodeToString(n.Response))
 }
 
 func ReadNtlmV1Response(bytes []byte) (*NtlmV1Response, error) {
